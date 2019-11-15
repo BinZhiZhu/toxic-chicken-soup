@@ -43,7 +43,7 @@ $this->off(\yii\web\View::EVENT_END_BODY, [\yii\debug\Module::getInstance(), 're
                     </div>
                     <div class="col">
                         <div class="float-right" style="padding-top: 0px;">
-                            <a class="btn btn-primary btn-filled btn-xs" href="https://github.com/egotong/nows">开源</a>
+                            <a class="btn btn-primary btn-filled btn-xs" href="https://github.com/BinZhiZhu/toxic-chicken-soup">开源</a>
                         </div>
                     </div>
                 </div>
