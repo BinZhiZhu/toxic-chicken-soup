@@ -1,12 +1,10 @@
 <?php
 
 /** @var \yii\web\View $this */
-use app\assets\AppAsset;
 //use app\assets\ElementUI;
 use app\assets\VueJs;
 use yii\helpers\Html;
 
-AppAsset::register($this);
 VueJs::register($this);
 //ElementUI::register($this);
 $this->off(\yii\web\View::EVENT_END_BODY, [\yii\debug\Module::getInstance(), 'renderToolbar']);

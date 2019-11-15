@@ -12,7 +12,7 @@ class VueJs extends AssetBundle
         'https://cdn.staticfile.org/vue/2.5.16/vue.min.js',
         'https://unpkg.com/axios/dist/axios.min.js', //axios http库
        // 'https://unpkg.com/vue/dist/vue.js',
-        'https://unpkg.com/vue-router/dist/vue-router.js',//vue-router
+//        'https://unpkg.com/vue-router/dist/vue-router.js',//vue-router
 
         // 生产环境版本，优化了尺寸和速度
 //        'https://cdn.jsdelivr.net/npm/vue',
