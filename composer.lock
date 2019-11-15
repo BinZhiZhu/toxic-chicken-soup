@@ -108,97 +108,6 @@
             ]
         },
         {
-            "name": "casbin/casbin",
-            "version": "v0.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-casbin/php-casbin.git",
-                "reference": "749bfdeab78a554c89880175f3209e06e6ff06c5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-casbin/php-casbin/zipball/749bfdeab78a554c89880175f3209e06e6ff06c5",
-                "reference": "749bfdeab78a554c89880175f3209e06e6ff06c5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6.0",
-                "s1lentium/iptools": "^1.1",
-                "symfony/expression-language": "^2.8"
-            },
-            "require-dev": {
-                "php-coveralls/php-coveralls": "^2.1",
-                "phpunit/phpunit": "~5.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Casbin\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "TechLee",
-                    "email": "techlee@qq.com"
-                }
-            ],
-            "description": "a powerful and efficient open-source access control library for php projects.",
-            "keywords": [
-                "access control",
-                "acl",
-                "casbin",
-                "rbac"
-            ],
-            "time": "2019-01-04T09:13:27+00:00"
-        },
-        {
-            "name": "casbin/yii-adapter",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-casbin/yii-casbin.git",
-                "reference": "0abe2e504dfe64494cf6d8213ebe6db11b7c76ef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-casbin/yii-casbin/zipball/0abe2e504dfe64494cf6d8213ebe6db11b7c76ef",
-                "reference": "0abe2e504dfe64494cf6d8213ebe6db11b7c76ef",
-                "shasum": ""
-            },
-            "require": {
-                "casbin/casbin": "~0.1",
-                "yiisoft/yii2": "~2.0.14"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "CasbinAdapter\\Yii\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "TechLee",
-                    "email": "techlee@qq.com"
-                }
-            ],
-            "description": "Use Casbin in Yii PHP Framework. ",
-            "keywords": [
-                "casbin",
-                "casbin-adapter",
-                "database",
-                "yii"
-            ],
-            "time": "2018-11-16T09:56:46+00:00"
-        },
-        {
             "name": "cebe/markdown",
             "version": "dev-master",
             "source": {
@@ -3474,9 +3383,6 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "casbin/yii-adapter": 20
-    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
